@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * puts half - Prints the second half of a string
+ * puts_half - Prints the second half of a string
  * @str: Pointer to the string
  *
- * Description: If the string length is odd, the function prints from
- * (length + 1) / 2. Otherwise, it prints from length / .
+ * Description: If the string length is even, it prints from length / 2.
+ * If the string length is odd, it prints from (length + 1) / 2,
+ * followed by a new line.
  */
 void puts_half(char *str)
 {
