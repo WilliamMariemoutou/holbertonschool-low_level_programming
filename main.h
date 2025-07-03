@@ -1,10 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+char *_strcat(char *dest, char *src);
 int _putchar(char c);
-void print_most_numbers(void);
-void print_line(int n);
-void print_diagonal(int n);
-void print_square(int size);
+/* other prototypes */
 
 #endif /* MAIN_H */
