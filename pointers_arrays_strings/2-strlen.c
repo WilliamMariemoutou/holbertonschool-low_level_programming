@@ -14,6 +14,6 @@ int _strlen(char *s)
 		len++;
 	}
 
-	retunr (len);
+	return (len);
 }
 
