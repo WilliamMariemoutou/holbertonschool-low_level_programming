@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
- * puts2 - Print every other character of a string, starting from the first
+ * puts2 - Prints every other character of a string, starting with the first
  * @str: Pointer to the string
  *
- * Description: Printss character at even indices followed by a new line
+ * Description: Prints characters at even indices followed by a newline.
  */
 void puts2(char *str)
 {
@@ -14,7 +15,6 @@ void puts2(char *str)
 		_putchar(str[i]);
 		i += 2;
 	}
-
 
 	_putchar('\n');
 }
