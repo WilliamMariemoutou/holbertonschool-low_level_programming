@@ -1,8 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-char *_strcat(char *dest, char *src);
 int _putchar(char c);
-/* other prototypes */
+char *_strcat(char *dest, char *src);
+/* add any other prototypes below */
 
 #endif /* MAIN_H */
