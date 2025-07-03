@@ -2,23 +2,21 @@
 
 /**
  * _strcat - Concatenates two strings
- * @dest: The destination string
- * @src: The source string
+ * @dest: Destination string; must have enough space to hold the result
+ * @src:  Source string to append to @dest
  *
- * Return: A pointer to the resulting string dest
+ * Return: Pointer to the resulting string @dest
  */
 char *_strcat(char *dest, char *src)
 {
 	int i = 0;
 	int j = 0;
 
-	/* Find the end of dest string */
+	/* Move i to the end of dest */
 	while (dest[i] != '\0')
-	{
 		i++;
-	}
 
-	/* Append src string to dest */
+	/* Copy src into dest starting at dest[i] */
 	while (src[j] != '\0')
 	{
 		dest[i] = src[j];
@@ -26,7 +24,7 @@ char *_strcat(char *dest, char *src)
 		j++;
 	}
 
-	/* Add the null terminator */
+	/* Append terminating null byte */
 	dest[i] = '\0';
 
 	return (dest);
