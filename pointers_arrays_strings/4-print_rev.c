@@ -5,7 +5,8 @@
  * @s: Pointer to the string to be printed in reverse.
  *
  * Description: This function loops through the string to find its length,
- * then prints the characters in reverse order using _putchar, followed by a newline.
+ * then prints the characters in reverse order using _putchar, followed
+ * by a newline.
  */
 void print_rev(char *s)
 {
