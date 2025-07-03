@@ -1,8 +1,11 @@
 #include "main.h"
 
 /**
- * prints _rev - Prints a string in reversed followed by a new line
- * @s: Pointer to the string to print
+ * print_rev - Prints a string in reverse followed by a new line.
+ * @s: Pointer to the string to be printed in reverse.
+ *
+ * Description: This function loops through the string to find its length,
+ * then prints the characters in reverse order using _putchar, followed by a newline.
  */
 void print_rev(char *s)
 {
