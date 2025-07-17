@@ -8,9 +8,9 @@
 *@s2: Second string
 *@n: Maximum number of bytes to include s2
 *
-* Retunr: Pointer to newly allocated string with s1 followed by s2
-* (up to n bytes),
-* or NULL if memory allocation fails
+* Return: A pointer to the newly allocated string containing s1
+* followed by the first n bytes of s2 and null terminated.
+* Returns NULL if memory allocation fails
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
