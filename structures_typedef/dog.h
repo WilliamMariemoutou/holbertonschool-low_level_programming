@@ -14,4 +14,13 @@ struct dog
 	char *owner;
 };
 
-#endif /* DOG_H */
+/**
+ * init_dog - Initializes a variable of type struct dog
+ * @d: Pointer to struct dog to initialize
+ * @name: Name to set
+ * @age: Age to set
+ * @owner: Owner to set
+ */
+void init_dog(struct dog *d, char *name, float age, char *owner);
+
+#endif
