@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include "lists.h"
 
-/*
- *print_list - prints all elements of the list
- *@h: points to the head of the list
+/**
+ * print_list - prints all the elements of a list_t list
+ * @h: pointer to the head of the list
  *
- *Return: the number of nodes
+ * Description: Goes through each node in a linked list,
+ * printing the length and string, or (nil) if the string is NULL.
+ * Returns the total number of nodes.
+ *
+ * Return: number of nodes in the list
  */
 
 size_t print_list(const list_t *h)
