@@ -5,6 +5,7 @@
 /**
  * add_dnodeint - adds a new node at the beginning of the list
  * head: points to the start of the list
+ * add_dnodeint - adds a new node at the beginning of a dlistint_t list
  * @n: number of values in the list
  *
  * Return: address of the new element or NULL if it fails
