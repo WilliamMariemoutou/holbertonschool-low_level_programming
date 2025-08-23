@@ -1,5 +1,6 @@
 #include "lists.h"
-
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * get_dnodeint_at_index - returns the nth node of the linked list
  * @head: pointer to the head of the list
