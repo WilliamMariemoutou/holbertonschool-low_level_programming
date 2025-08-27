@@ -5,7 +5,7 @@
 
 /**
  * hash_table_create - creates a hash table
- * @size - the size of the array
+ * @size: the size of the array
  *
  * Return: NULL if it fails
  */
