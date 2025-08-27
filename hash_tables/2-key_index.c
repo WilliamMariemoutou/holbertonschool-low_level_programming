@@ -8,11 +8,12 @@
  * @key: the key
  * @size: size of the array of the hash table
  *
- * Return: index at which the key or value should be stored in the array of 
+ * Return: index at which the key or value should be stored in the array of
  * the hash table
- */ 
+ */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
-	 unsigned long int hash = hash_djb2(key);
-	 return (hash % size);
+	unsigned long int hash = hash_djb2(key);
+	return (hash % size);
+
 }
