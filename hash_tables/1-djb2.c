@@ -5,8 +5,7 @@
 
 /**
  *hash_djb2 - implements the djib2 algorithm
- *@str: the string used 
- *
+ *@str: the string used
  */
 unsigned long int hash_djb2(const unsigned char *str)
 {
