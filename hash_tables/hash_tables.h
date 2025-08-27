@@ -5,6 +5,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+hash_table_t *hash_table_create(unsigned long int size);
+
 /**
  * struct hash_node_s - Node of a hash table
  *
